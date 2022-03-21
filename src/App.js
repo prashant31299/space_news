@@ -3,7 +3,6 @@ import  { useEffect,useState} from "react";
 
 import './App.css';
 import Apicall from './components/Apicall';
-import Menu from "./components/Menu";
 function App() {
   const [state,setstate] =useState([])
 
@@ -43,7 +42,6 @@ console.log(state)
 })
 }  
 <Apicall/>
-<Menu name={"prashant"}/>
   </div>
   );
 }
